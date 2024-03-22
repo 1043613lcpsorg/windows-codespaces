@@ -12,7 +12,7 @@ how to Install windows in github codespaces
 11. then in terminal type in `sudo ./utils/novnc_proxy --vnc 127.0.0.1:5900 --listen localhost:6080`
 12. now click the popup that says open in browser 
 in the webpage click vnc.html
-then press connect you might be already connected when you open the html file
+then press connect if the screen is black then you might be already connected when you open the html file
 left click then click open browser
 search up `Windows 11`
 click the link that says windows 11
