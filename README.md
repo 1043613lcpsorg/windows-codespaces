@@ -19,7 +19,8 @@ click the link that says windows 11
 ![Screenshot 2024-03-22 8 30 38 AM](https://github.com/1043613lcpsorg/windows-codespaces/assets/153699099/676c912b-3ea5-405d-8271-5bbc197a986b)
 1. download windows 11 (DOWNLOAD THE ISO NOT THE EXECUTABLE) in the vm
 2. the download goes very fast in the vm it took me 30 seconds
-3. while the windwos 11 iso is downloading go back to the codespace and make a new terminal 
+3. while the windows 11 iso is downloading go back to the codespace and make a new terminal 
 ![Screenshot 2024-03-22 8 34 57 AM](https://github.com/1043613lcpsorg/windows-codespaces/assets/153699099/2ff07b91-e79c-4bb8-89f9-bf5c834d07c2)
 4. type `sudo apt install konsole`
 5. when asking "do you want to download 350 mb?" type `y`
+6. watch this if you want to do this but it runs in 2 times speed https://www.youtube.com/watch?v=PQv-1-qI9zg
