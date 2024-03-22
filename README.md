@@ -4,4 +4,10 @@ how to Install windows in github codespaces
 3. type in terminal `sudo apt update`
 4. then type in `sudo apt install qemu-kvm qemu-system-x86 openbox firefox tigervnc-standalone-server`
 5. after that then git clone `git clone https://www.github.com/novnc/noVNC`
-6. 
+6. type `cd noVNC`
+7. and `ls`
+8. then type `sudo vncserver -SecurityType none -xstartup "openbox" -rfbport 5900`
+9. now you are half way through
+10. don't click "open in browser" close the popup
+11. then in terminal type in `sudo ./utils/novnc_proxy --vnc 127.0.0.1:5900 --listen localhost:6080`
+12. now click the popup that says open in browser 
