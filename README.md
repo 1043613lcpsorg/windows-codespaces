@@ -23,4 +23,9 @@ click the link that says windows 11
 ![Screenshot 2024-03-22 8 34 57 AM](https://github.com/1043613lcpsorg/windows-codespaces/assets/153699099/2ff07b91-e79c-4bb8-89f9-bf5c834d07c2)
 4. type `sudo apt install konsole`
 5. when asking "do you want to download 350 mb?" type `y`
-6. watch this if you want to do this but it runs in 2 times speed https://www.youtube.com/watch?v=PQv-1-qI9zg
+6. watch this but it runs in 2 times speed https://www.youtube.com/watch?v=PQv-1-qI9zg
+7. once konsole has downloaded close firefox and leftclick and open the emulator terminal
+8. type `ls`
+9. then type `cd Downloads` make sure the "D" for the Dowloads is capitalized
+10. then type `df -h` after that type `qemu-img create disk.img 10G`
+11. in the emulator terminal first type `cd Downloads` then type `ls` copy the windows iso name then type `qemu-system-x86-64 --enable-kvm -m 4G -smp 2 -pflash /usr/share/OVMF/OVMF_CODE.fd -hdd disk.img - cdrom drive Win11_22H2_English_x64v2.iso`
