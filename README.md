@@ -22,7 +22,7 @@ click the link that says windows 11
 3. while the windows 11 iso is downloading go back to the codespace and make a new terminal 
 ![Screenshot 2024-03-22 8 34 57 AM](https://github.com/1043613lcpsorg/windows-codespaces/assets/153699099/2ff07b91-e79c-4bb8-89f9-bf5c834d07c2)
 4. type `sudo apt install konsole`
-5. when asking "do you want to download 350 mb?" type `y`
+5. when asking "do you want to download 389 mb?" type `y`
 6. watch this but it runs in 2 times speed https://www.youtube.com/watch?v=PQv-1-qI9zg
 7. once konsole has downloaded close firefox and leftclick and open the emulator terminal
 8. type `ls`
